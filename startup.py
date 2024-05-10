@@ -7,6 +7,8 @@ from multiprocessing import Process
 from datetime import datetime
 from pprint import pprint
 from langchain_core._api import deprecated
+import warnings
+warnings.filterwarnings("ignore", category=PendingDeprecationWarning)
 
 try:
     import numexpr
