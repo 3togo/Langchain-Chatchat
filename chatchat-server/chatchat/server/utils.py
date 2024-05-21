@@ -689,7 +689,7 @@ def get_temp_dir(id: str = None) -> Tuple[str, str]:
     '''
     创建一个临时目录，返回（路径，文件夹名称）
     '''
-    from chatchat.configs.basic_config import BASE_TEMP_DIR
+    from chatchat.configs._basic_config import BASE_TEMP_DIR
     import uuid
 
     if id is not None:  # 如果指定的临时目录已存在，直接返回

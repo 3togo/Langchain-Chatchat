@@ -85,30 +85,35 @@ LLM_MODEL_CONFIG = {
 
 # 创建一个全局的共享字典
 MODEL_PLATFORMS = [
-
     {
-        "platform_name": "oneapi",
-        "platform_type": "oneapi",
-        "api_base_url": "http://127.0.0.1:3000/v1",
-        "api_key": "sk-",
-        "api_concurrencies": 5,
+        "platform_name":
+        "oneapi",
+        "platform_type":
+        "oneapi",
+        "api_base_url":
+        "http://127.0.0.1:3000/v1",
+        "api_key":
+        "sk-",
+        "api_concurrencies":
+        5,
         "llm_models": [
-            # 智谱 API
-            "chatglm_pro",
-            "chatglm_turbo",
-            "chatglm_std",
-            "chatglm_lite",
-            # 千问 API
-            "qwen-turbo",
-            "qwen-plus",
-            "qwen-max",
-            "qwen-max-longcontext",
-            # 千帆 API
-            "ERNIE-Bot",
-            "ERNIE-Bot-turbo",
-            "ERNIE-Bot-4",
-            # 星火 API
-            "SparkDesk",
+            # # 智谱 API
+            # "chatglm_pro",
+            # "chatglm_turbo",
+            # "chatglm_std",
+            # "chatglm_lite",
+            # # 千问 API
+            # "qwen-turbo",
+            # "qwen-plus",
+            # "qwen-max",
+            # "qwen-max-longcontext",
+            "Qwen-1.55-1.8B",
+            # # 千帆 API
+            # "ERNIE-Bot",
+            # "ERNIE-Bot-turbo",
+            # "ERNIE-Bot-4",
+            # # 星火 API
+            # "SparkDesk",
         ],
         "embed_models": [
             # 千问 API
@@ -119,8 +124,6 @@ MODEL_PLATFORMS = [
         "image_models": [],
         "multimodal_models": [],
     },
-
-
 ]
 
 MODEL_PROVIDERS_CFG_PATH_CONFIG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "model_providers.yaml")
