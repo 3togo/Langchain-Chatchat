@@ -1,4 +1,5 @@
 #! /bin/bash
+git branch dev
 do_cmd(){
     echo "$@"
     eval $@
