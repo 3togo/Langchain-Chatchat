@@ -127,6 +127,7 @@ def dialogue_page(
     # st.write(st.session_state)
 
     @st.experimental_dialog("模型配置", width="large")
+    # @st.dialog("模型配置", width="large")
     def llm_model_setting():
         # 模型
         cols = st.columns(3)

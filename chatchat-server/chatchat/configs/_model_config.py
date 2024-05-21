@@ -21,11 +21,12 @@ TEMPERATURE = 0.7
 # TOP_P = 0.95 # ChatOpenAI暂不支持该参数
 
 SUPPORT_AGENT_MODELS = [
-    "chatglm3-6b",
-    "openai-api",
-    "Qwen-14B-Chat",
-    "Qwen-7B-Chat",
-    "qwen-turbo",
+    # "chatglm3-6b",
+    # "openai-api",
+    # "Qwen-14B-Chat",
+    # "Qwen-7B-Chat",
+    "Qwen-1.55-1.8B-Chat",
+    # "qwen-turbo",
 ]
 
 
