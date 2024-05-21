@@ -76,3 +76,5 @@ chardet
 pydub
 boto3
 xinference_client
+langchain_openai
+streamlit_extras

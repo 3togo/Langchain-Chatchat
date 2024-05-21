@@ -6,7 +6,7 @@ do_cmd(){
 }
 
 reset
-# pip install streamlit==1.33.0
+#pip install streamlit==1.33.0
 . ~/jvenv311/bin/activate
 ./shutdown_all.sh
 #for port in 20000 20001 20002 7861 8501; do
