@@ -3,7 +3,7 @@ do_cmd(){
     echo "$@"
     eval $@
 }
-
+git checkout dev
 . ~/jvenv311/bin/activate
 ./shutdown_all.sh
 #for port in 20000 20001 20002 7861 8501; do
